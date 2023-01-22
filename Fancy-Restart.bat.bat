@@ -85,7 +85,7 @@ if errorlevel 2 goto no
 if errorlevel 1 goto yes
 
 :yes
-timeout /t 10
+timeout /t 5
 shutdown /r /t 0
 
 :no
